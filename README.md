@@ -1,4 +1,4 @@
-# AreneroInteligente
+# Arenero Inteligente
 Este repositorio contiene el servidor y la página web para el manejo de datos de un arenero inteligente.
 
 Para utilizar la pagina web se debe instalar el programa xampp, una vez instalado debe de agregar la carpeta proyecto_arenero en la carpeta htdocs
