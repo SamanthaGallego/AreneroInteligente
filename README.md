@@ -6,4 +6,4 @@ que se encuentra dentro de la carpeta xampp ubicada en el disco local.
 
 Una vez agregada la carpeta a htdocs deberá correr el servidor desde la terminal de visual code con la instruccion "node src/indexrest.js".
 
-Despues de realizar ambos pasos podrá utilizar la pagina web accediendo desde el navegador con la url "http://localhost/proyecto_arenero/index.php"
+Despues de realizar ambos pasos podrá utilizar la pagina web accediendo desde el navegador con la url http://localhost/proyecto_arenero/index.php
