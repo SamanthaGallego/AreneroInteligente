@@ -1,55 +1,55 @@
-# Arenero para gatos inteligente
+# Smart Cat Litter Box
 
-¡Bienvenido al repositorio del Arenero para gatos inteligente!
+Welcome to the Smart Cat Litter Box repository!
 
-## Descripción del proyecto
+## Project Description
 
-Este proyecto tiene como objetivo brindar una solución innovadora y práctica para el manejo de datos de un arenero inteligente para gatos. El sistema consta de dos componentes principales:
+This project aims to provide an innovative and practical solution for managing data from a smart litter box for cats. The system consists of two main components:
 
-1. **Servidor**: El servidor se encarga de recibir los datos del arenero inteligente, procesarlos y almacenarlos en una base de datos. Está desarrollado en Node.js y se comunica con el arenero a través de una API REST.
+1. **Server**: The server receives data from the smart litter box, processes it, and stores it in a database. It is developed in Node.js and communicates with the litter box through a REST API.
 
-2. **Página web de control**: La página web proporciona una interfaz intuitiva y amigable para visualizar y gestionar los datos recopilados por el arenero inteligente. Utiliza tecnologías web modernas como HTML, CSS y JavaScript.
+2. **Control Web Page**: The web page provides an intuitive and user-friendly interface for visualizing and managing the data collected by the smart litter box. It utilizes modern web technologies like HTML, CSS, and JavaScript.
 
-## Requisitos previos
+## Prerequisites
 
-Antes de utilizar la página web, asegúrese de tener instalado XAMPP en su computadora. Puede descargarlo e instalarlo desde [https://www.apachefriends.org/index.html](https://www.apachefriends.org/index.html).
+Before using the web page, ensure that XAMPP is installed on your computer. You can download and install it from [https://www.apachefriends.org/index.html](https://www.apachefriends.org/index.html).
 
-## Configuración y puesta en marcha
+## Setup and Deployment
 
-Siga los siguientes pasos para comenzar a utilizar la página web:
+Follow these steps to start using the web page:
 
-1. Descargue el archivo **proyecto_arenero.zip** y descomprímalo en una ubicación de su elección.
+1. Download the **proyecto_arenero.zip** file and extract it to a location of your choice.
 
-2. Ubique la carpeta resultante dentro de la carpeta **htdocs** de su instalación de XAMPP. Esta carpeta se encuentra en la ubicación donde instaló XAMPP en su disco local.
+2. Place the resulting folder inside the **htdocs** folder of your XAMPP installation. This folder is located in the location where you installed XAMPP on your local disk.
 
-3. Asegúrese de tener instalado Node.js en su computadora. Si aún no lo ha hecho, puede descargarlo desde [https://nodejs.org](https://nodejs.org) e instalarlo.
+3. Make sure you have Node.js installed on your computer. If not, you can download it from [https://nodejs.org](https://nodejs.org) and install it.
 
-4. Abra Visual Studio Code (u otro editor de su preferencia) y abra la carpeta **servidor_iot** que descomprimió previamente.
+4. Open Visual Studio Code (or any other preferred editor) and open the **servidor_iot** folder you extracted earlier.
 
-5. Abra una terminal en Visual Studio Code y ejecute el siguiente comando para iniciar el servidor:
+5. Open a terminal in Visual Studio Code and execute the following command to start the server:
 
    ```bash
    node src/indexrest.js
    ```
 
-6. ¡Listo! Ahora puede acceder a la página web del arenero inteligente desde su navegador favorito utilizando la siguiente URL:
+6. Great! Now you can access the smart litter box web page from your favorite browser using the following URL:
 
    [http://localhost/proyecto_arenero/index.php](http://localhost/proyecto_arenero/index.php)
 
-## Características de la página web
+## Web Page Features
 
-La página web de control del arenero inteligente ofrece diversas funcionalidades para que pueda interactuar con el sistema de forma eficiente:
+The control web page of the smart litter box offers various functionalities for efficient interaction with the system:
 
-- Visualización de datos en tiempo real: Podrá ver en tiempo real la información recopilada por el arenero, como el peso del gato y la frecuencia de uso.
+- Real-time data visualization: See real-time information collected by the litter box, such as your cat's weight and usage frequency.
 
-- Configuración del arenero: A través de la página web, podrá ajustar ciertos parámetros del arenero, como el nivel de la arena o la frecuencia de limpieza automática.
+- Litter box configuration: Adjust certain litter box parameters, like litter level or automatic cleaning frequency, through the web page.
 
-- Historial de datos: Explore el historial de datos almacenados en la base de datos para analizar el comportamiento de su gato a lo largo del tiempo.
+- Data history: Explore the stored data history to analyze your cat's behavior over time.
 
-- Notificaciones: El sistema puede enviar notificaciones a su correo electrónico o teléfono móvil para alertar sobre eventos importantes o situaciones que requieran su atención.
+- Notifications: The system can send notifications to your email or mobile phone to alert you about important events or situations.
 
-## Contribuciones
+## Contributions
 
-¡Estamos emocionados de recibir contribuciones de la comunidad! Si desea colaborar con el proyecto, puede hacerlo a través de pull requests. También puede informar problemas o sugerir mejoras en la sección de "Issues" del repositorio.
+We are excited to receive contributions from the community! If you wish to collaborate with the project, feel free to submit pull requests. You can also report issues or suggest improvements in the "Issues" section of the repository.
 
-Esperamos que este proyecto sea útil y atractivo para todos los amantes de los gatos y la tecnología. ¡Diviértase explorando y mejorando la vida de nuestros queridos felinos! 🐱🚀
+We hope this project proves helpful and appealing to all cat and technology enthusiasts. Have fun exploring and enhancing the lives of our beloved felines! 🐱🚀
